@@ -190,7 +190,7 @@ display: table;}
 
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/pattern.png');}
+#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg');}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -516,3 +516,36 @@ img.box.profile-pic {
 .container {
 	width:60%;
 	height: 100%;}
+	
+	.formbox {
+    padding: 15px;
+    color: #534d4d;
+    display: table;
+}
+
+.box.formbox.label {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2.3;
+}
+
+.contact-list {
+    color: #534d4d;
+    display: table;
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contact-list.contact-list-item {
+    display: table-row;
+    font-size: 2px;
+}
+
+.fa.contact {
+    color: #534d4d;
+    font-size: 24px;
+    margin: 8px;
+}
