@@ -19,9 +19,11 @@ body {
 }
 
 /*
- * Remove text-shadow in selection highlight: h5bp.com/i
+ * Removetwitcht-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
+ * Clour Scheme: https://coolors.co/app/337ab7-534d4d-ffffff-c6c5b9-4a6d7c
+
  */
 
 ::-moz-selection {
@@ -134,6 +136,7 @@ main {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	background-color: #C6C5B9;
 	height: 100%;
 	width: 100%;
 	font-family: 'Roboto',sans-serif;
@@ -190,7 +193,7 @@ display: table;}
 
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg');}
+#slide-3 .bcg {background-image:url('../img/cloud.jpg');}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -507,7 +510,6 @@ img.box.profile-pic {
 .cvimg {
 	margin-top: 100px;
     height: 650px;	
-	display: table-cell;
     vertical-align: middle;
 	 position: relative;
 }
