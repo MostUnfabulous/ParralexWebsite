@@ -38,7 +38,18 @@
     </head>
     <body>
 	
-	<nav class="cd-vertical-nav">
+
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+       	
+       	<div id="preload">
+	       	<img src="img/desk.png">
+	       	<img src="img/pattern.png">
+	       	<img src="img/bcg_slide-3.jpg">
+       	</div>
+		
+			<nav class="cd-vertical-nav">
 	<ul>
 		<li><a href="#slide-1" class="active"><span class="label">Intro</span></a></li>
 		<li><a href="#slide-2"><span class="label">Resume</span></a></li>
@@ -46,16 +57,6 @@
 		<li><a href="#slide-4"><span class="label">Share</span></a></li>
 	</ul>
 </nav><!-- .cd-vertical-nav -->
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-       	
-       	<div id="preload">
-	       	<img src="img/bcg_slide-1.jpg">
-	       	<img src="img/bcg_slide-2.jpg">
-	       	<img src="img/bcg_slide-3.jpg">
-	       	<img src="img/bcg_slide-4.jpg">
-       	</div>
        	
        	<main>
        	 
@@ -168,10 +169,7 @@
             </div>
 
 
-            <div class="Image_Wrapper" data-caption=
-            "This is some data &lt;u&gt;with&lt;/u&gt;html in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it">
-            <a><img src="http://placehold.it/472x500/F38630/ffffff"></a>
-            </div>
+ 
 
 
             <div class="Image_Wrapper" data-caption=
@@ -180,10 +178,7 @@
             </div>
 
 
-            <div class="Image_Wrapper" data-caption=
-            "This is some data &lt;u&gt;with&lt;/u&gt;html in it">
-                <a><img src="http://placehold.it/800x600/ECD078/ffffff"></a>
-            </div>
+     
 
 
             <div class="Image_Wrapper" data-caption=
@@ -204,12 +199,7 @@
             <div class="Image_Wrapper" data-caption="AJ Tyzack Website">
                 <a><img src="img/ajtyzack.jpg"></a>
             </div>
-
-
-            <div class="Image_Wrapper" data-caption=
-            "This is some data &lt;u&gt;with&lt;/u&gt;html in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it">
-            <a><img src="http://placehold.it/472x500/F38630/ffffff"></a>
-            </div>            
+          
 
 
         </section>
@@ -253,6 +243,8 @@
     <script src="js/bootstrap.min.js">
     </script> <!-- Scrolling Nav JavaScript -->
      
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
     <script src="js/jquery.easing.min.js">
     </script> 
     <script src="js/jquery.collagePlus.js">
@@ -297,8 +289,6 @@
 
     </script>
 
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-	<script src="js/main.js"></script> <!-- Resource jQuery -->
 
     </body>
 </html>
