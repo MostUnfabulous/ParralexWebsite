@@ -170,8 +170,8 @@ main {
 		color: #b2b2b2;
 	}
 	.hsContent a {
-		color: #b2b2b2;
-		text-decoration: underline;
+		color: 337AB7;
+		text-decoration: none;
 	}
 
 /* Slide 1 */
@@ -433,6 +433,11 @@ h1.heading {
 
 }
 
+h1.heading.bold {
+	font-weight: 700;
+
+}
+
 h2.heading {
 	font-size: 48px;
 	text-align: center;
@@ -551,3 +556,10 @@ img.box.profile-pic {
     font-size: 24px;
     margin: 8px;
 }
+
+.fa.main {
+    color: #534d4d;
+    padding-top: 45px;
+    font-size: 95px;
+}
+
