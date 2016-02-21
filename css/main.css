@@ -563,3 +563,20 @@ img.box.profile-pic {
     font-size: 95px;
 }
 
+    .navbar {
+        padding: 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: rgba(255,255,255,0.45);
+        border: 0;
+        font-weight: 800;
+    }
+
+    .top-nav-collapse {
+        padding: 15px px;
+    }
+	
+	 .navbar a{
+		 #337AB7;
+	 }

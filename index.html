@@ -23,12 +23,12 @@
 			* Twitter - https://twitter.com/ihatetomatoes
 			* Google+ - https://plus.google.com/u/0/109859280204979591787/about
 		-->
-
+		<link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/flat-ui.css" rel="stylesheet"><!-- Custom CSS -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-		<link href="css/bootstrap.css" rel="stylesheet">
+
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel=
     'stylesheet' type='text/css'><!-- FontAwesome -->
     <link href=
@@ -37,16 +37,49 @@
         	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 		    <link href="css/examples.css" media="all" rel="stylesheet" type="text/css">
     </head>
-    <body>
+<body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
 	
-				<nav class="cd-vertical-nav">
-	<ul>
-		<li><a href="#slide-1" class="active"><span class="label">Intro</span></a></li>
-		<li><a href="#slide-2"><span class="label">Resume</span></a></li>
-		<li><a href="#slide-3"><span class="label">Help</span></a></li>
-		<li><a href="#slide-4"><span class="label">Share</span></a></li>
-	</ul>
-</nav><!-- .cd-vertical-nav -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button class="navbar-toggle" data-target=
+                ".navbar-ex1-collapse" data-toggle="collapse" type=
+                "button"><span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+
+
+                    <li>
+                        <a class="page-scroll" href="#slide-1">Hayden Smith</a>
+                    </li>
+
+
+                    <li>
+                        <a class="page-scroll" href="#slide-2">Resume</a>
+                    </li>
+
+
+                    <li>
+                        <a class="page-scroll" href="#slide-3">Portfolio</a>
+                    </li>
+
+
+                    <li>
+                        <a class="page-scroll" href="#slide-4">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
 <button class="cd-nav-trigger cd-image-replace">Open navigation<span aria-hidden="true"></span></button>
 	
@@ -71,7 +104,7 @@
                 <div class="row">
 
                         <h1 class="heading">Hayden<b>Smith</b></h1>
-						<h2 class="heading">Front-end Developer</h2>
+						<h2 class="heading">Front End Developer</h2>
 						 <a class="page-scroll" href="#slide-2"><i class=
                         "fa main fa-angle-down"></i></a>
 
@@ -87,34 +120,7 @@
 				<div class="hsContent section-2">
 				<div class="row">
                         <div class="col-lg-4">
-						<div class="box">
-                                <img alt="pic" class="box profile-pic" src=
-                                "img/smith.jpg"/>
-
-                                <div class="text-box">
-                                    <h3>James Tyzack</h3>
-
-
-                                    <h4>Director, Skyzack</h4>
-
-
-                                    <p>We have found Hayden to be a very
-                                    reliable, hard working and punctual
-                                    individual with good ideas and he is very
-                                    capable of working on his own initiative.
-                                    Hayden carried out a range of marketing
-                                    duties for our new enterprise Skyzack
-                                    including building a completly new
-                                    responsive website Using HTML5 and
-                                    Bootstrap.<br>
-                                    In short Hayden helped increase company
-                                    visibility and prodctivity, we reccomend
-                                    Hayden for full time eployment and will be
-                                    delighted to act as a reference We wish
-                                    Hayden all the best in his future
-                                    career</p>
-                                </div>
-                            </div>
+					
                            <div class="box">
                                 <img alt="pic" class="box small-pic" src=
                                 "img/tyzack.jpg"/>
@@ -166,21 +172,21 @@
 <div class="row">
 	<section class="Collage effect-parent" style=
         "margin: 0px -20px; height=100%">
-            <div class="Image_Wrapper" data-caption="Woods Trophies Website">
-                <a><img src="img/woods.jpg"></a>
-            </div>
+            
 
 
             <div class="Image_Wrapper" data-caption="AJ Tyzack Website">
-                <a><img src="img/ajtyzack.jpg"></a>
+                <a href="http://ajtyzack.skyzack.biz/"><img src="img/ajtyzack.jpg"></a>
             </div>
 
 
- 
+  <div class="Image_Wrapper" data-caption="Modern Homes E-commerce Website">
+                <a href="http://haydenbsmith.co.uk/moderngarden/wordpress/"><img src="img/modernhomevopy.jpg"></a>
+            </div>
 
 
             <div class="Image_Wrapper" data-caption=
-            "This is some data &lt;u&gt;with&lt;/u&gt;html in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it">
+            "360 degree image put together for loacal business">
             <a><img src="img/skyzackhub.jpg"></a>
             </div>
 
@@ -193,18 +199,20 @@
             <a><img src="img/panorama.jpg"></a>
             </div>
 
-
+      <div class="Image_Wrapper" data-caption="AJ Tyzack Website">
+                <a href="http://ajtyzack.skyzack.biz/"><img src="img/ajtyzack.jpg"></a>
+            </div>
   
     
 
 
-            <div class="Image_Wrapper">
+           <div class="Image_Wrapper" data-caption="Woods Trophies Website">
                 <a><img src="img/woods.jpg"></a>
             </div>
 
 
-            <div class="Image_Wrapper" data-caption="AJ Tyzack Website">
-                <a><img src="img/ajtyzack.jpg"></a>
+            <div class="Image_Wrapper" data-caption="Modern Homes E-commerce Website">
+                <a href="http://haydenbsmith.co.uk/moderngarden/wordpress/"><img src="img/modernhomevopy.jpg"></a>
             </div>
           
 
