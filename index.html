@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/flat-ui.css">
-          <link rel="stylesheet" href="css/main.css">
+
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
     <link href=
@@ -23,6 +23,7 @@
     rel="stylesheet">
         	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 		    <link href="css/examples.css" media="all" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="css/main.css">
     </head>
 <body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
 
@@ -44,22 +45,26 @@
 
 
                     <li>
-                        <a class="page-scroll" href="#slide-1">Hayden Smith</a>
+                        <a class="page-scroll" href="#slide-1">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#slide-2">About Me</a>
                     </li>
 
 
                     <li>
-                        <a class="page-scroll" href="#slide-2">Resume</a>
+                        <a class="page-scroll" href="#slide-3">Resume</a>
                     </li>
 
 
                     <li>
-                        <a class="page-scroll" href="#slide-3">Portfolio</a>
+                        <a class="page-scroll" href="#slide-4">Portfolio</a>
                     </li>
 
 
                     <li>
-                        <a class="page-scroll" href="#slide-4">Contact</a>
+                        <a class="page-scroll" href="#slide-5">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -76,9 +81,9 @@
         <![endif]-->
 
        	<div id="preload">
-	       	<img src="img/desk.jpg">
+	       	<img src="img/desk2.jpg">
 	       	<img src="img/pattern.jpg">
-	       	<img src="img/bcg_slide-3.jpg">
+	       	<img src="img/cloud.jpg">
        	</div>
 
 
@@ -90,22 +95,22 @@
 				<div class="hsContent section-1">
                 <div class="row">
 
-                        <h1 class="heading">Hayden<b>Smith</b></h1>
+                        <h1 class="heading">Hayden<strong>Smith</strong></h1>
 						<h2 class="heading">Front End Developer</h2>
 						 <a class="page-scroll" href="#slide-2"><i class=
-                        "fa main fa-angle-down"></i></a>
+                        "fa main fa-angle-double-down"></i></a>
 
                 </div>
 
 	        	</div>
 		    </section>
 
-		    <section id="slide-2" class="homeSlide">
-		    	<div class="bcg">
-				 <div class="container">
-			    	<div class="hsContainer">
-				<div class="hsContent section-2">
-				<div class="row">
+        <section id="slide-2" class="homeSlide">
+          <div class="bcg">
+         <div class="container">
+            <div class="hsContainer">
+        <div class="hsContent section-2">
+        <div class="row">
                         <div class="col-lg-4">
 
                            <div class="box">
@@ -146,19 +151,71 @@
 
 
                     </div>
+              </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+		    <section id="slide-3" class="homeSlide">
+		    	<div class="bcg">
+				 <div class="container">
+			    	<div class="hsContainer">
+				<div class="hsContent section-2">
+				<div class="row">
+                        <div class="col-lg-4">
+
+                           <div class="box">
+                                <img alt="pic" class="box small-pic" src=
+                                "img/tyzack.jpg"/>
+
+                                <div class="text-box">
+                                    <h3>James Tyzack</h3>
+
+
+                                    <h4>Director, Skyzack</h4>
+
+
+                                    <p>We have found Hayden to be a very
+                                    reliable, hard working and punctual
+                                    individual with good ideas and he is very
+                                    capable of working on his own initiative.
+                                    Hayden carried out a range of marketing
+                                    duties for our new enterprise Skyzack
+                                    including building a completly new
+                                    responsive website Using HTML5 and
+                                    Bootstrap.<br>
+                                    In short Hayden helped increase company
+                                    visibility and prodctivity, we reccomend
+                                    Hayden for full time eployment and will be
+                                    delighted to act as a reference We wish
+                                    Hayden all the best in his future
+                                    career</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-8">
+                          <div class="cvimg" >
+                        </div>
+
+
+
+                    </div>
 		        	</div>
 				</div>
 				</div>
 				</div>
 		    </section>
 
-			<section id="slide-3" class="homeSlide">
+			<section id="slide-4" class="homeSlide">
 				<div class="bcg">
 			    	<div class="hsContainer">
 		    			 <div class="container port" style="padding:100px;" id="portfolio">
 <div class="row">
 	<section class="Collage effect-parent" style=
-        "margin: 0px -20px; height=100%">
+        "margin: 0px -20px; min-height=100%">
 
 
 
@@ -219,7 +276,7 @@
 			    </div>
 			</section>
 
-			<section id="slide-4" class="homeSlide">
+			<section id="slide-5" class="homeSlide">
 				<div class="bcg">
 			    	<div class="hsContainer">
 		    			<div class="hsContent">
@@ -346,7 +403,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/imagesloaded.js"></script>
-        <script src="js/skrollr.js"></script>
         <script src="js/_main.js"></script>
 		<script src="js/jquery.js">
     </script> <!-- Bootstrap Core JavaScript -->
@@ -383,7 +439,7 @@
         $('.Collage').removeWhitespace().collagePlus(
             {
                 'fadeSpeed'     : 2000,
-                'targetHeight'  : 200
+                'targetHeight'  : 150
             }
         );
     };
@@ -395,7 +451,7 @@
         $('.Collage .Image_Wrapper').css("opacity", 0);
         // set a timer to re-apply the plugin
         if (resizeTimer) clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(collage, 200);
+        resizeTimer = setTimeout(collage, 50);
     });
 
     </script>

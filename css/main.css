@@ -6,7 +6,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #f2f2f2;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -15,7 +15,9 @@ body {
     font-size: 1em;
     line-height: 1.4;
 	font-family: 'Roboto',sans-serif;
-    color: #534d4d;
+    height: auto;
+    background-image:url('../img/pattern.jpg');
+    background-attachment: fixed;
 
 }
 
@@ -90,14 +92,14 @@ textarea {
    Parallax Scroll
    ========================================================================== */
 body, html {
-	height: 100%;
-	min-height: 100%;
-	background-color: #000000;
+    height: auto;
+
   color: white;
 	font-family: 'Roboto',sans-serif;
 }
 body {
 	font-family: 'Roboto',sans-serif;
+  color: white;
 
 }
 .no-js {
@@ -106,17 +108,25 @@ body {
 h2 {
 	margin-top: 0;
     font-weight: 100;
+    color: white;
 }
 h1 {
 	font-family: 'Roboto',sans-serif;
   font-weight: 100;
 }
+
+strong {
+
+  font-weight: 400;
+}
+
+
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
 }
 section {
-	min-width: 960px;
 	opacity: 0;
+    height: auto;
 }
 .loaded section,
 .no-js section {
@@ -128,6 +138,10 @@ section {
 main {
 	overflow-x: hidden;
 	font-family: 'Roboto',sans-serif;
+  color: white;
+  width: 100%;
+      height: auto;
+
 }
 #preload {
 	width: 1px;
@@ -140,33 +154,33 @@ main {
 }
 .bcg {
 	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: auto;
-	background-color: #C6C5B9;
-	height: 100%;
+    height: auto;
 	width: 100%;
 	font-family: 'Roboto',sans-serif;
+
+
 }
 
 .hsContainer {
-	width: 100%;
-	height: 100%;
+
+    height: auto;
 	left: 0px;
-	overflow: hidden;
+	overflow: visible;
 	font-family: 'Roboto',sans-serif;
+
 
 }
 
 .hsContent {
 
-    width: 100%;
-    height: 100%;
+
+    height: auto;
     padding: 200px 0;
     text-align: center;
+    position: absolute;
 }
 
-}
+
 	.hsContent h2  {
 		font-size: 35px;
 		line-height: 38px;
@@ -183,39 +197,59 @@ main {
 
 /* Slide 1 */
 #slide-1 .bcg {
-  background: linear-gradient(rgba(0,53,84,.8), rgba(0,53,84,.8)),
-    url('../img/desk.jpg');
+  background-image:url('../img/desk2.jpg');
+    height: 100%;
 display: table;}
-#slide-1 .hsContent {
+#slide-1 .hsContent
+ {    height: auto;
+    border-top: 200px;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/pattern.jpg');}
+#slide-2 .bcg {
+    height: auto;}
 #slide-2 .hsContent {
+    height: auto;
+  border-top: 200px;
 
-    width: 100%;
-    height: 100%;
+    text-align: center;
+}
+/* Slide 3 */
+#slide-3 .bcg {
+height:auto;
+}
+#slide-3 .hsContent {
+height:auto;
+  border-top: 200px;
 
     text-align: center;
 }
 
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/cloud.jpg');}
-#slide-3 .hsContent {
+#slide-4 .bcg {
+    height: auto; }
+#slide-4 .hsContent {
+    height: auto;
 	margin-left: -239px;
+    border-top: 200px;
 }
-	#slide-3 h2 {
+	#slide-4 h2 {
 		color: #f2ead6;
 		background-color: rgba(0,0,0,0.6);
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/desk.png')};
-#slide-4 .hsContent {
-	margin-left: -450px;
+#slide-5 .bcg {
+
+  height:100%;}
+
+#slide-5 .hsContent {
+    border-top: 200px;
+      height: auto;
+      width: 100%;
 }
-	#slide-4 h2 {
+	#slide-5 h2 {
 		background: none;
 		padding-left: 0;
 		padding-right: 0;
@@ -241,7 +275,6 @@ display: table;}
     content: "";
     display: block;
     width: 0;
-    height: 150%;
 }
 
 /*
@@ -328,9 +361,7 @@ display: table;}
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
@@ -414,15 +445,18 @@ display: table;}
 .hsContent.section-1 {
 	  display: table-cell;
     vertical-align: middle;
+    border-top: 200px;
+      height: auto;
 
 }
 
 .hsContent.section-2 {
 	display: table;
     width: 100%;
-    height: 100%;
+      height: auto;
     padding: 0px 0px;
     text-align: center;
+        border-top: 200px;
 
 }
 
@@ -454,24 +488,24 @@ h2.heading {
 
 .box {
 
-    background: rgba(255,255,255,0.5);
-    width: 20em;
-    margin: 3em;
+    background: rgba(0,0,0,0.5);
+    width: 100%
+    margin: 5em;
 		margin-top: 4em;
 	position: relative;
 }
 
 .text-box {
-
+width: 100% ;
 	padding: 1em;
     color: #534d4d;
 }
 
 .text-box p {
     text-align: justify;
-	font-weight: 600;
+	font-weight: 400;
     font-size: 13px;
-    color: #534d4d;
+    color: #fff;
 	width: 100%;
 }
 
@@ -521,21 +555,24 @@ img.box.profile-pic {
 }
 
 .cvimg {
-	margin-top: 100px;
-    height: 650px;
-    vertical-align: middle;
+  background-image:url('../img/cvfeb16.jpg');
+	margin-top: 0px;
+    width: 100%;
+    background-position: top;
 	 position: relative;
 }
 
 
 .container {
-	width:60%;
-	height: 100%;}
+  width: 100%;
+	min-height: 100%;
+  padding-right: 0px;
+      padding-left: 0px;}
 
 	.formbox {
-    padding: 15px;
     color: #534d4d;
     display: table;
+    padding: 0px;
 }
 
 .box.formbox.label {
@@ -566,25 +603,81 @@ img.box.profile-pic {
 }
 
 .fa.main {
-    color: #534d4d;
+    color: #f8f8ff;
     padding-top: 45px;
     font-size: 95px;
 }
 
     .navbar {
-        padding: 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-        background: rgba(255,255,255,0.45);
-        border: 0;
-        font-weight: 800;
+        -webkit-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        transition: background .3s ease-in-out,padding .3s ease-in-out;
+        background: rgba(0,0,0,0.60);
+        font-weight: 300;
+        color: white;
     }
 
     .top-nav-collapse {
-        padding: 15px px;
+        padding: 30px;
     }
 
 	 .navbar a{
-		 #337AB7;
+		 color: white;
+
 	 }
+
+   .navbar-nav > li > a {
+    font-weight: 400;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .cvimg {
+  	margin-top: 200px;
+      height: 450px;
+      vertical-align: middle;
+  	 position: relative;
+  }
+
+  .box {
+    width: 20em;
+  }
+.bcg {
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+
+  #slide-2 .bcg {background-image:url('../img/pattern.jpg');
+  height:auto;
+  min-height:100%; }
+
+  #slide-3 .bcg {background-image:url('../img/cloud.jpg');
+  height:auto;
+  min-height:100%; }
+
+  #slide-4 .bcg {background-image:url('../img/pattern.jpg');
+  height:auto;
+  min-height:100%; }
+
+  #slide-5 .bcg {background-image:url('../img/desk2.jpg');
+  height:auto;
+  min-height:100%; }
+
+}
+@media (min-width: 992px) {
+  .container {
+
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+
+  }
