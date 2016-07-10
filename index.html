@@ -45,26 +45,26 @@
 
 
                     <li>
-                        <a class="page-scroll" href="#slide-1">Home</a>
+                        <a class="page-scroll"s onclick="$('#slide-1').animatescroll();">Home</a>
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#slide-2">About Me</a>
-                    </li>
-
-
-                    <li>
-                        <a class="page-scroll" href="#slide-3">Resume</a>
+                        <a class="page-scroll" onclick="$('#slide-2').animatescroll();">About Me</a>
                     </li>
 
 
                     <li>
-                        <a class="page-scroll" href="#slide-4">Portfolio</a>
+                        <a class="page-scroll" onclick="$('#slide-3').animatescroll();">Resume</a>
                     </li>
 
 
                     <li>
-                        <a class="page-scroll" href="#slide-5">Contact</a>
+                        <a class="page-scroll" onclick="$('#slide-4').animatescroll();">Portfolio</a>
+                    </li>
+
+
+                    <li>
+                        <a class="page-scroll" onclick="$('#slide-6').animatescroll();">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +97,7 @@
 
                         <h1 class="heading">Hayden<strong>Smith</strong></h1>
 						<h2 class="heading">Front End Developer</h2>
-						 <a class="page-scroll" href="#slide-2"><i class=
+						 <a class="page-scroll" href="#slide-2" onclick="$('#slide-2').animatescroll();"><i class=
                         "fa main fa-angle-double-down"></i></a>
 
                 </div>
@@ -111,34 +111,23 @@
             <div class="hsContainer">
         <div class="hsContent section-2">
         <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-md-5">
 
                            <div class="box">
                                 <img alt="pic" class="box small-pic" src=
-                                "img/tyzack.jpg"/>
+                                "img/smith.jpg"/>
 
                                 <div class="text-box">
-                                    <h3>James Tyzack</h3>
+                                    <h3>Hayden Smith</h3>
 
 
-                                    <h4>Director, Skyzack</h4>
+                                    <h4>Developer</h4>
 
 
-                                    <p>We have found Hayden to be a very
-                                    reliable, hard working and punctual
-                                    individual with good ideas and he is very
-                                    capable of working on his own initiative.
-                                    Hayden carried out a range of marketing
-                                    duties for our new enterprise Skyzack
-                                    including building a completly new
-                                    responsive website Using HTML5 and
-                                    Bootstrap.<br>
-                                    In short Hayden helped increase company
-                                    visibility and prodctivity, we reccomend
-                                    Hayden for full time eployment and will be
-                                    delighted to act as a reference We wish
-                                    Hayden all the best in his future
-                                    career</p>
+                                    <p>I'm ambitious technically minded individual with excellent problem solving skills and a computing background.
+I have proven experience with HTML5, Javascript, Wordpress and Bootstrap and possess the enthusiasm and commitment to learn and develop my skills and career in a growing and fast bussiness.</p>
+
+
                                 </div>
                             </div>
                         </div>
@@ -147,7 +136,52 @@
 
 
 
-                    </div>
+
+
+                                    <div class="col-md-5">
+
+                                       <div class="box">
+                                         <ul class="contact-list">
+                                             <li class="contact-list-item"><i class=
+                                             "fa contact fa-github"></i>Github</li>
+
+                                             <li class="contact-list-item"><i class=
+                                             "fa contact fa-html5"></i>HTML 5</li>
+
+                                             <li class="contact-list-item"><i class=
+                                             "fa contact fa-css3"></i>CSS 3</li>
+
+                                             <li class="contact-list-item"><i class=
+                                             "fa contact fa-android"></i>Android</li>
+
+                                             <li class="contact-list-item"><i class=
+                                             "fa contact fa-mobile"></i>Responsive Developement</li>
+
+                                             <li class="contact-list-item"><i class=
+                                             "fa contact fa-wordpress"></i>Wordpress</li>
+
+                                             <li class="contact-list-item"><i class=
+                                             "fa contact fa-bold"></i>Bootstrap</li>
+
+
+
+
+
+
+
+
+
+                                         </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+
+
+
+
+
               </div>
         </div>
         </div>
@@ -193,7 +227,7 @@
                         </div>
 
 
-                        <div class="col-lg-8">
+                        <div class="col-lg-4">
                           <div class="cvimg" >
                         </div>
 
@@ -209,10 +243,10 @@
 			<section id="slide-4" class="homeSlide">
 				<div class="bcg">
 			    	<div class="hsContainer">
-		    			 <div class="container port" style="padding:100px;" id="portfolio">
-<div class="row">
+		    			 <div class="container port" style="padding:100px; height:auto;" id="portfolio";>
+<div class="row" style="height:auto;">
 	<section class="Collage effect-parent" style=
-        "margin: 0px -20px; min-height=100%">
+        "margin: 0px -20px; min-height=100%" >
 
 
 
@@ -277,13 +311,13 @@
 				<div class="bcg">
 			    	<div class="hsContainer">
 		    			<div class="hsContent">
-				    		<div class="box formbox" style="width: 100%; margin: 0px;">
+				    		<div class="box formbox" style="" id="slide-6">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="col-lg-8" style=
                         "border-right: solid 1px #C1C1C1;">
-                            <form action="index.php" class="form-horizontal"
+                            <form action="" class="form-horizontal"
                             method="post" role="form">
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label" for=
@@ -292,13 +326,14 @@
                                     <div class="col-sm-10">
                                         <input class="form-control" id="name"
                                         name="name" placeholder=
-                                        "First & Last Name" type="text" value=
+                                        "First + Last Name" type="text" value=
                                         "">
                                     </div>
                                 </div>
 
 
-                                <div class="form-group">
+                                <div class="form-group" >
+
                                     <label class="col-sm-2 control-label" for=
                                     "email">Email</label>
 
@@ -452,6 +487,8 @@
     });
 
     </script>
+
+    <script src="js/animatescroll.js"></script>
 
 
     </body>
